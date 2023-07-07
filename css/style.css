@@ -1,0 +1,127 @@
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url(https://img02.flagma.ua/photo/detskiy-tir-gidrobol-17947872_big.jpg);
+    background-size: 100% 100%;
+    cursor: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1579257122/5a3755ce3a48f0.7723702415135758862387_jvy9hf.png), default;
+   }
+   
+  .table{
+    width: 90%;
+    height: 200px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 25px solid brown;
+   }
+   .human1{
+    width: 150px;
+    height: 200px;
+    background: url(https://www.pngall.com/wp-content/uploads/12/Jaguar-Animal-PNG-Cutout.png);
+    background-size: 100% 100%;
+   }
+   .human2{
+    width: 150px;
+    height: 200px;
+    background: url(https://www.transparentpng.com/thumb/animal/P34yAJ-animals-png-free-images.png);
+    background-size: 100% 100%;
+   }
+   .human3{
+    width: 150px;
+    height: 200px;
+    background: url(https://png.pngtree.com/png-clipart/20230507/ourmid/pngtree-tiger-walking-wildlife-scene-transparent-background-png-image_7088126.png);
+    background-size: 100% 100%;
+   }
+   .human4{
+    width: 150px;
+    height: 200px;
+    background: url(https://i.pinimg.com/originals/f5/72/0c/f5720c143faa8d11e3ab2ced3cefef59.png);
+    
+    background-size: 100% 100%;
+   }
+   .human5{
+    width: 150px;
+    height: 200px;
+    background: url(https://www.maxpixel.net/static/photo/640/Image-S-Fox-Png-Wildlife-Fox-Animals-%E0%A4%A8%E0%A4%B5%E0%A4%B2-5276320.png);
+    background-size: 100% 100%;
+   }
+   .human6{
+    width: 150px;
+    height: 200px;
+    background: url(https://www.freeiconspng.com/thumbs/3d-animal-png/horse-3d-animal-png-10.png);
+    background-size: 100% 100%;
+   }
+   .human7{
+    width: 150px;
+    height: 200px;
+    background: url(https://www.transparentpng.com/thumb/animal/oBiBmo-animals-png-free-images.png);
+    background-size: 100% 100%;
+   }
+   .human8{
+    width: 150px;
+    height: 200px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Animals_png_set_by_mossi889-d4uye4q_-_Bear.png);
+    background-size: 100% 100%;
+   }
+   .human9{
+    width: 150px;
+    height: 200px;
+    background: url(https://pics.clipartpng.com/Elephant_PNG_Clipart-1043.pnghttps://www.freeiconspng.com/thumbs/kids-png/kids-png--20.png);
+    background-size: 100% 100%;
+   }
+   .human0{
+    width: 150px;
+    height: 200px;
+    background: url(https://freepngimg.com/thumb/eagle/14-eagle-png-image-with-transparency-download-thumb.png);
+    background-size: 100% 100%;
+   }
+   .human:nth-child(odd){
+        animation-name: move1;
+   
+       animation-duration: 1.75s;
+   
+       animation-timing-function: linear;
+   
+       
+   
+       animation-iteration-count: infinite;
+   
+       animation-direction: alternate;
+   
+       animation-fill-mode: none;
+   }
+   
+   .human:nth-child(even){
+        animation-name: move2;
+   
+       animation-duration: 1.75s;
+   
+       animation-timing-function: linear;
+   
+       
+   
+       animation-iteration-count: infinite;
+   
+       animation-direction: alternate;
+   
+       animation-fill-mode: none;
+   }
+   @keyframes move1{
+    0%{}
+    50%{transform:translateX(250px)}
+    100%{transform:translateX(0)}
+   }
+   @keyframes move2{
+    0%{}
+    50%{transform:translateX(-200px) rotate(5deg)}
+    100%{transform:translateX(0) rotate(0deg)}
+   }
+   .count{
+    font-size: 30px;
+   }
